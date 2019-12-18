@@ -1,12 +1,12 @@
 .PHONY: clean all
 
-ORIG=$(shell find . -name Chapter\*.md -print)
+ORIG=$(shell find . -name Chapter\*.md -print | sort -V)
 PIXIV=$(ORIG:.md=.pixiv.txt)
 
 all: $(PIXIV);
 
 cl: $(PIXIV)
-	@echo -n $(PIXIV) | sort | xargs wc -m
+	@echo -n $(PIXIV) | xargs wc -m
 
 %.pixiv.txt: %.md
 	bash to-pixiv.sh $< > $@
