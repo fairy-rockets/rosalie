@@ -4,6 +4,8 @@
 
 死神にかりそめの体を与えられた元・人形の女の子、ロザリーさんだった。
 
+[Pixiv版はこちらです](https://www.pixiv.net/novel/series/1215095)。
+
 ## [Chapter 1](Chapter1.md)
 
 **わたし、ロザリーさん。あなたを殺しに来たの。**
